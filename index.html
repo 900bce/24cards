@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>24棋牌</title>
+</head>
+
+<body>
+  <div class="content-box">
+    <!-- <a href="http://www.02079.vip/" class="service-btn" target="_blank">
+      <img src="./img/service.png" alt="service" class="service-btn-image">
+    </a> -->
+    <img src="./img/main-header.png" alt="main-header" class="main-header">
+    <p class="main-paragraph">尊敬的贵宾，感谢您一直以来对24棋牌的信任和支持，<br>为提供给您更优质的服务质量，<br>我司真诚希望能听取您宝贵的意见和建议！</p>
+
+    <img src="./img/appreciate.png" alt="" class="appreciate">
+
+    <form action="" class="form">
+        <div class="id-input-box">
+          <label for="id" class="input-label">会员ID*</label><br>
+          <input type="text" id="id" placeholder="请输入" class="input-field id-input-field" required />
+          <p class="hint"><img src="./img/attention.png" class="attention"> 会员ID不可为空</p>
+        </div>
+        <div class="opinion-input-box">
+          <label for="opinion" class="input-label">您的意见、反馈及申诉*</label><br>
+          <textarea id="opinion" placeholder="请填写您遇到的具体问题，或者对游戏的建议" class="input-field opinion-input-field"></textarea>
+          <p class="hint"><img src="./img/attention.png" class="attention"> 反馈意见不可为空</p>
+        </div>
+        <div class="">
+          <p class="input-label">截图让我们更清楚了解您的问题*</p>
+          <div class="screenshot-box">
+            <div class="screenshot">
+              <label for="screenshot1">
+                <img src="./img/upload-screenshot.png" class="img-preview">
+              </label>
+              <input type="file" id="screenshot1" class="img-input" accept="image/*"
+                style="height: 0; visibility: hidden; overflow: hidden;">
+            </div>
+            <div class="screenshot">
+              <label for="screenshot2" class="screenshot">
+                <img src="./img/upload-screenshot.png" class="img-preview">
+              </label>
+              <input type="file" id="screenshot2" class="img-input" accept="image/*"
+                style="height: 0; visibility: hidden; overflow: hidden;">
+            </div>
+          </div>
+        </div>
+        <div>
+          <label class="input-label">验证码*</label><br>
+          <div>
+            <input type="text" class="input-field code-input-field">
+            <span class="code">7426</span>
+            <p class="hint"><img src="./img/attention.png" class="attention"> 验证码不可为空</p>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <img src="./img/form-submit.png" alt="submit">
+        </button>
+    </form>
+
+    <footer>
+      <img src="./img/copyright.png" alt="copyright">
+    </footer>
+
+    <div class="pop-up">
+      <div class="pop-up-box">
+        <h1 class="pop-up-heading"></h1>
+        <p class="pop-up-content"></p>
+        <img src="./img/exit.png" alt="exit" class="close-modal">
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/moment.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
