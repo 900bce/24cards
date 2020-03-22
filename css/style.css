@@ -37,7 +37,7 @@ html {
 
 .main-paragraph {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   font-weight: 600;
   line-height: 1.7;
   text-align: center;
@@ -60,6 +60,15 @@ html {
   border: solid 3px rgba(167, 121, 76, 0.6);
   border-radius: 15px;
   box-shadow: 0 0 5px rgb(161, 41, 41, .3);
+  position: relative;
+}
+
+.service-btn {
+  position: absolute;
+  width: 8rem;
+  height: auto;
+  top: -2.5rem;
+  right: -2rem;
 }
 
 .input-label {
